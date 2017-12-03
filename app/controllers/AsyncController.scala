@@ -32,7 +32,7 @@ class AsyncController @Inject() (actorSystem: ActorSystem)(implicit exec: Execut
     getFutureMessage(1.second).map { msg => Ok(msg) }
   }
 
-  // test vadaa 4 d
+  // VADAAA
 
   private def getFutureMessage(delayTime: FiniteDuration): Future[String] = {
     val promise: Promise[String] = Promise[String]()
